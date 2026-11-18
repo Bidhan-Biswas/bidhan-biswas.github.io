@@ -61,6 +61,7 @@ Awards & Activities
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
+{% assign ordered_publications = site.publications | sort: 'pub_order' %}
+  <ul>{% for post in ordered_publications %}
     {% include archive-single-cv.html %}
   {% endfor %}</ul>

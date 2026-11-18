@@ -4,12 +4,11 @@
   --accent-teal: #0f766e;
   --accent-mint: #10b981;
   --accent-coral: #e05260;
-  --accent-gradient: linear-gradient(90deg, #5b4bdb 0%, #0891b2 40%, #0f766e 72%, #10b981 100%);
-  --accent-soft: rgba(91, 75, 219, 0.1);
-  --accent-soft-alt: rgba(15, 118, 110, 0.08);
-  --accent-card: rgba(255, 255, 255, 0.86);
-  --accent-shadow: 0 4px 16px rgba(28, 39, 83, 0.06);
-  --accent-shadow-hover: 0 14px 32px rgba(35, 47, 94, 0.14);
+  --accent-grid: rgba(91, 75, 219, 0.06);
+  --accent-soft: rgba(91, 75, 219, 0.08);
+  --accent-card: #ffffff;
+  --accent-shadow: 0 3px 12px rgba(28, 39, 83, 0.05);
+  --accent-shadow-hover: 0 10px 24px rgba(35, 47, 94, 0.12);
 }
 
 html[data-theme="dark"] {
@@ -18,12 +17,11 @@ html[data-theme="dark"] {
   --accent-teal: #2dd4bf;
   --accent-mint: #34d399;
   --accent-coral: #fb7185;
-  --accent-gradient: linear-gradient(90deg, #a99bff 0%, #38bdf8 38%, #2dd4bf 72%, #34d399 100%);
-  --accent-soft: rgba(169, 155, 255, 0.14);
-  --accent-soft-alt: rgba(45, 212, 191, 0.1);
-  --accent-card: rgba(18, 26, 48, 0.82);
-  --accent-shadow: 0 6px 20px rgba(0, 0, 0, 0.22);
-  --accent-shadow-hover: 0 18px 40px rgba(0, 0, 0, 0.38);
+  --accent-grid: rgba(169, 155, 255, 0.05);
+  --accent-soft: rgba(169, 155, 255, 0.1);
+  --accent-card: #121a30;
+  --accent-shadow: 0 4px 16px rgba(0, 0, 0, 0.25);
+  --accent-shadow-hover: 0 12px 28px rgba(0, 0, 0, 0.35);
 }
 
 ::selection {
@@ -37,28 +35,14 @@ html[data-theme="dark"] {
 }
 
 body {
-  background-image:
-    radial-gradient(900px 460px at 8% -10%, var(--accent-soft), transparent 62%),
-    radial-gradient(760px 420px at 94% -6%, var(--accent-soft-alt), transparent 60%);
+  background-color: var(--global-bg-color);
+  background-image: radial-gradient(var(--accent-grid) 1px, transparent 1px);
+  background-size: 24px 24px;
   background-attachment: fixed;
 }
 
 .masthead {
   background-color: var(--global-bg-color);
-  backdrop-filter: blur(12px);
-}
-
-.masthead::after {
-  height: 3px;
-  background: var(--accent-gradient);
-}
-
-.masthead__menu-item--lg a {
-  background: var(--accent-gradient);
-  -webkit-background-clip: text;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-  font-weight: 800;
 }
 
 .masthead__menu-item a {
@@ -74,6 +58,38 @@ body {
   border-bottom-color: var(--accent-violet);
 }
 
+.sidebar .author__urls i.fa-location-dot {
+  color: var(--accent-coral);
+}
+
+.sidebar .author__urls i.fa-building-columns {
+  color: var(--accent-violet);
+}
+
+.sidebar .author__urls i.fa-envelope {
+  color: var(--accent-cyan);
+}
+
+.sidebar .author__urls i.ai-google-scholar {
+  color: var(--accent-teal);
+}
+
+.sidebar .author__urls i.fa-github {
+  color: var(--accent-mint);
+}
+
+#theme-icon {
+  color: var(--accent-coral);
+}
+
+.page__footer-follow a i.fa-github {
+  color: var(--accent-mint) !important;
+}
+
+.page__footer-follow a i.fa-rss-square {
+  color: var(--accent-coral) !important;
+}
+
 .author__name {
   color: var(--accent-violet);
 }
@@ -81,7 +97,7 @@ body {
 .author__avatar img {
   padding: 4px;
   border: 0;
-  background: var(--accent-gradient);
+  background: var(--accent-violet);
   box-shadow: var(--accent-shadow);
 }
 
@@ -102,19 +118,7 @@ body {
   bottom: 0.12em;
   width: 4px;
   border-radius: 4px;
-  background: var(--accent-gradient);
-}
-
-.archive > .page__title::after {
-  content: "";
-  display: inline-block;
-  width: 8px;
-  height: 8px;
-  margin-left: 0.9rem;
-  border-radius: 50%;
   background: var(--accent-violet);
-  box-shadow: 12px 0 0 var(--accent-cyan), 24px 0 0 var(--accent-teal);
-  vertical-align: middle;
 }
 
 .archive h1:not(.page__title),
@@ -124,6 +128,26 @@ body {
   padding-left: 0.6rem;
   border-left: 4px solid var(--accent-violet);
   border-bottom: 1px solid var(--global-border-color);
+}
+
+.page__content li:nth-child(4n+1)::marker,
+.archive li:nth-child(4n+1)::marker {
+  color: var(--accent-violet);
+}
+
+.page__content li:nth-child(4n+2)::marker,
+.archive li:nth-child(4n+2)::marker {
+  color: var(--accent-cyan);
+}
+
+.page__content li:nth-child(4n+3)::marker,
+.archive li:nth-child(4n+3)::marker {
+  color: var(--accent-teal);
+}
+
+.page__content li:nth-child(4n+4)::marker,
+.archive li:nth-child(4n+4)::marker {
+  color: var(--accent-mint);
 }
 
 .page__content a,
@@ -143,21 +167,18 @@ body {
 }
 
 .archive .archive__item {
-  position: relative;
-  margin-bottom: 0.85rem;
-  padding: 0.9rem 1.1rem;
+  margin-bottom: 0.75rem;
+  padding: 0.8rem 1rem;
   background: var(--accent-card);
   border: 1px solid var(--global-border-color);
   border-left: 3px solid var(--accent-teal);
   border-radius: $border-radius;
   box-shadow: var(--accent-shadow);
-  transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
 }
 
 .archive .archive__item:hover {
-  transform: translateY(-2px);
-  box-shadow: var(--accent-shadow-hover);
   border-left-color: var(--accent-violet);
+  box-shadow: var(--accent-shadow-hover);
 }
 
 .archive .archive__item-title {
@@ -173,12 +194,17 @@ body {
   color: var(--accent-violet);
 }
 
+.archive__item-title a + a i.fa-link {
+  color: var(--accent-coral);
+  opacity: 0.75;
+}
+
 .archive__item-excerpt {
   color: var(--global-text-color-light);
 }
 
 .wordwrap {
-  padding: 0.75rem 1rem;
+  padding: 0.6rem 0.85rem;
   margin-bottom: 1.25rem;
   background: var(--accent-soft);
   border-left: 3px solid var(--accent-cyan);
@@ -205,23 +231,15 @@ blockquote {
 }
 
 .btn:not(.btn--inverse):not(.btn--light-outline) {
-  background-image: var(--accent-gradient);
-  background-color: transparent;
-  box-shadow: var(--accent-shadow);
+  background-image: none;
+  background-color: var(--accent-violet);
 }
 
 .btn:not(.btn--inverse):not(.btn--light-outline):hover {
-  background-color: transparent;
-  filter: brightness(1.08);
+  background-color: var(--accent-cyan);
+  filter: none;
 }
 
 .page__footer {
-  border-top: 3px solid transparent;
-  border-image: var(--accent-gradient) 1;
-}
-
-@media (max-width: 600px) {
-  .archive > .page__title::after {
-    display: none;
-  }
+  border-top: 2px solid var(--accent-violet);
 }
