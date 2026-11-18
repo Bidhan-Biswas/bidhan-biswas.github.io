@@ -7,18 +7,20 @@ redirect_from:
   - /about.html
 ---
 
-I am Bidhan Biswas, based in Dhaka, Bangladesh. I work as a Senior Officer (IT) in the Online Banking Division at Janata Bank PLC and am pursuing an M.Sc. in Computer Science and Engineering at Dhaka International University (expected June 2027). I received my B.Sc. in Computer Science and Engineering from Sylhet Engineering College, affiliated with Shahjalal University of Science and Technology (SUST), in 2018 with CGPA 3.77/4.00 (awarded with Distinction).
+I'm Bidhan Biswas. I work as a Senior Officer (IT) in the Online Banking Division at Janata Bank PLC in Dhaka, and I'm finishing an MSc in Computer Science and Engineering at Dhaka International University (expected June 2027). I'm now putting together applications for PhD programmes in machine learning and biomedical AI.
+
+My first research project was my BSc thesis at Sylhet Engineering College, affiliated with Shahjalal University of Science and Technology (SUST), where I graduated in 2018 with a CGPA of 3.77/4.00 and a distinction. It was on brain tumour detection using adaptive thresholding and morphological operations, and it got me interested in medical imaging. Most of my work since then has circled the same problem: how these models behave when labelled data is scarce, or when the images come from a different hospital than the ones used for training.
 
 **Research Interests**
 - Data-Efficient Machine Learning
-- Large Language Models
-- Biomedical AI
-- Human-Robot Interaction
-- Computer Vision
+- Biomedical AI and Medical Imaging
 - Clinical NLP
+- Computer Vision
+- Large Language Models
+- Human-Robot Interaction
 
 **Research Experience**
-- *Data-Efficient and Cross-Dataset Learning for Biomedical Imaging:* Developed a few-shot cross-dataset adaptation framework for tuberculosis detection using DenseNet-121 under limited target-domain labels; evaluated zero-shot transfer, frozen-head adaptation, full fine-tuning, and scratch-training regimes; conducted research on brain tumor detection, tuberculosis detection, diabetic retinopathy grading, and breast histopathology.
-- *Reliable Machine Learning for Clinical and Mental-Health Applications:* Cost-sensitive mental-health text classification to reduce harmful misclassification under cross-domain transfer; selective safety-aware routing to defer uncertain suicide-risk predictions for human review using asymmetric misclassification costs.
+- **Few-shot and cross-dataset biomedical imaging.** I built a few-shot adaptation setup for tuberculosis detection with DenseNet-121, comparing zero-shot transfer, frozen-head adaptation, full fine-tuning and training from scratch when only a handful of labelled target images are available. The same question runs through my work on brain tumour detection, diabetic retinopathy grading and breast histopathology.
+- **Reliable models for clinical text.** I've worked on cost-sensitive classification of mental-health posts, where missing a case is more damaging than a false alarm, and on a two-threshold routing layer that passes uncertain suicide-risk predictions to a human reviewer instead of forcing a label.
 
-See my [publications](/publications/) and [CV](/cv/) for more details. You can also download my [CV (PDF)](/files/Bidhan%20Biswas%20CV.pdf).
+I care as much about how these systems are evaluated as about the models themselves — which errors actually cost, and whether a result on one dataset tells you anything about the next one. I'm looking for a PhD group where I can stay with those questions. My [publications](/publications/) and [CV](/cv/) have the details, and there's a downloadable [CV (PDF)](/files/Bidhan%20Biswas%20CV.pdf) too.
