@@ -1,152 +1,157 @@
 {
   "basics": {
-    "name": "Your Sidebar Name",
-    "email": "none@example.org",
-    "phone": "",
-    "website": "https://academicpages.github.io",
-    "summary": "Currently employed at Red Brick University. Short biography for the left-hand sidebar",
+    "name": "Bidhan Biswas",
+    "email": "bidhan.biswas@students.diu.ac",
+    "phone": "+880 1930 377985",
+    "website": "https://bidhan-biswas.github.io",
+    "summary": "Researcher in data-efficient machine learning, biomedical AI, and clinical NLP.",
     "location": {
       "address": "",
       "postalCode": "",
-      "city": "Earth",
-      "countryCode": "US",
+      "city": "Dhaka",
+      "countryCode": "BD",
       "region": ""
     },
     "profiles": [
       {
         "network": "Google Scholar",
-        "username": "",
-        "url": "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
-      },
-      {
-        "network": "ORCID",
-        "username": "",
-        "url": "https://orcid.org/yourorcidurl"
+        "username": "LvQHfMEAAAAJ",
+        "url": "https://scholar.google.com/citations?hl=en&view_op=list_works&gmla=AO4B3jvEMsVjVPoaM_VjPHGpiwLP75RoinYSyxfXBW89iirra_xGM2Hp7EuA9vnkD-dV3mnMy2yAXh2EqkV9L57T1Xv3&user=LvQHfMEAAAAJ"
       },
       {
         "network": "GitHub",
-        "username": "academicpages",
-        "url": "https://github.com/academicpages"
+        "username": "bidhan-biswas",
+        "url": "https://github.com/bidhan-biswas"
       }
     ]
   },
-  "work": [],
+  "work": [
+    {
+      "company": "Janata Bank PLC, Online Banking Division",
+      "position": "Senior Officer (IT)",
+      "website": "",
+      "startDate": "2021",
+      "endDate": "Present",
+      "summary": "Develop and maintain eJanata (internet banking platform, 200,000+ users) and built core modules of JB360 for reporting, reconciliation, and dispute resolution.",
+      "highlights": [
+        "Technology stack: Python, Django, REST APIs, Oracle"
+      ]
+    },
+    {
+      "company": "ICT Centre, Bangladesh University of Professionals (BUP)",
+      "position": "Assistant Programmer",
+      "website": "",
+      "startDate": "2020-02",
+      "endDate": "2021-03",
+      "summary": "Designed and developed CHSR, a web platform for the Centre for Higher Study and Research.",
+      "highlights": [
+        "Technology stack: PHP, MySQL"
+      ]
+    },
+    {
+      "company": "BitMorpher",
+      "position": "Junior Software Developer",
+      "website": "",
+      "startDate": "2018",
+      "endDate": "2020",
+      "summary": "Developed native iOS applications for graphic design and image enhancement.",
+      "highlights": [
+        "Implemented image-processing and rendering features in Objective-C and Swift"
+      ]
+    }
+  ],
   "education": [
     {
-      "institution": "GitHub University",
-      "area": "Ph.D in Version Control Theory",
-      "studyType": "",
+      "institution": "Dhaka International University",
+      "area": "Computer Science and Engineering",
+      "studyType": "M.Sc.",
+      "startDate": "",
+      "endDate": "2027 (Expected)",
+      "gpa": null,
+      "courses": []
+    },
+    {
+      "institution": "Sylhet Engineering College (affiliated with SUST)",
+      "area": "Computer Science and Engineering",
+      "studyType": "B.Sc.",
       "startDate": "",
       "endDate": "2018",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "M.S. in Jekyll",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2014",
-      "gpa": null,
-      "courses": []
-    },
-    {
-      "institution": "GitHub University",
-      "area": "B.S. in GitHub",
-      "studyType": "",
-      "startDate": "",
-      "endDate": "2012",
-      "gpa": null,
+      "gpa": "3.77/4.00",
       "courses": []
     }
   ],
-  "skills": [],
+  "skills": [
+    {
+      "name": "Machine Learning",
+      "level": "",
+      "keywords": ["PyTorch", "Pandas", "NumPy", "Matplotlib"]
+    },
+    {
+      "name": "Programming",
+      "level": "",
+      "keywords": ["Python", "C/C++", "Java", "SQL"]
+    },
+    {
+      "name": "Software",
+      "level": "",
+      "keywords": ["Swift", "Objective-C", "iOS SDK", "PHP", "Oracle", "MySQL"]
+    }
+  ],
   "languages": [],
-  "interests": [],
+  "interests": [
+    { "name": "Data-Efficient Machine Learning", "keywords": [] },
+    { "name": "Large Language Models", "keywords": [] },
+    { "name": "Biomedical AI", "keywords": [] },
+    { "name": "Human-Robot Interaction", "keywords": [] },
+    { "name": "Computer Vision", "keywords": [] },
+    { "name": "Clinical NLP", "keywords": [] }
+  ],
   "references": [],
   "publications": [
     {
-      "name": "Paper Title Number 1",
-      "publisher": "Journal 1",
-      "releaseDate": "2009-10-01",
-      "website": "https://academicpages.github.io/files/paper1.pdf",
-      "summary": "This paper is about the number 1. The number 2 is left for future work."
+      "name": "Few-Shot Cross-Dataset Adaptation for Tuberculosis Detection Using DenseNet",
+      "publisher": "International Conference on Electrical, Computer and Communication Technologies (ECCT)",
+      "releaseDate": "2026-01-01",
+      "website": "https://arxiv.org/abs/2608.21427",
+      "summary": "First author. Accepted & Presented. Preprint: arXiv:2608.21427."
     },
     {
-      "name": "Paper Title Number 2",
-      "publisher": "Journal 1",
-      "releaseDate": "2010-10-01",
-      "website": "https://academicpages.github.io/files/paper2.pdf",
-      "summary": "This paper is about the number 2. The number 3 is left for future work."
+      "name": "Brain Tumor Detection with Tumor Region Analysis Using Adaptive Thresholding and Morphological Operation",
+      "publisher": "4th International Conference on Electrical Engineering and Information Technology (ICEEIT)",
+      "releaseDate": "2018-01-01",
+      "website": "https://ieeexplore.ieee.org/document/8628107",
+      "summary": "First author. Published. IEEE Xplore."
     },
     {
-      "name": "Paper Title Number 3",
-      "publisher": "Journal 1",
-      "releaseDate": "2015-10-01",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about the number 3. The number 4 is left for future work."
+      "name": "Selective Safety-Aware Routing for Cross-Domain Suicide Risk Detection with Asymmetric Misclassification Costs",
+      "publisher": "4th International Conference on Computing Advancements (ICCA)",
+      "releaseDate": "2026-01-02",
+      "website": "",
+      "summary": "Co-author. Accepted. Contribution: designed the two-threshold routing layer, coverage-matched baseline protocol, and cost-derived threshold analysis."
     },
     {
-      "name": "Paper Title Number 4",
-      "publisher": "GitHub Journal of Bugs",
-      "releaseDate": "2024-02-17",
-      "website": "https://academicpages.github.io/files/paper3.pdf",
-      "summary": "This paper is about fixing template issue #693."
+      "name": "Cost-Sensitive Learning for Reducing Harmful Misclassification in Mental Health Text Classification",
+      "publisher": "3rd IEEE International Conference on Computing, Applications and Systems (COMPAS)",
+      "releaseDate": "2026-01-03",
+      "website": "",
+      "summary": "Co-author. Accepted. Contribution: designed the external-corpus evaluation and diagnostic analysis of cross-distribution transfer."
+    },
+    {
+      "name": "ORViT-DR: Ordinality-Aware Hybrid ViT for Low-Resolution Diabetic Retinopathy Grading",
+      "publisher": "International Conference on Electrical, Computer and Communication Technologies (ECCT)",
+      "releaseDate": "2026-01-04",
+      "website": "https://arxiv.org/abs/2608.16958",
+      "summary": "Co-author. Accepted & Presented. Contribution: built the ordinal-aware evaluation suite, ensemble inference, and Grad-CAM analysis. Preprint: arXiv:2608.16958."
+    },
+    {
+      "name": "MagViT: Interpretable Multi-Magnification Transformers with Patient-Level Model Selection for Breast Histopathology",
+      "publisher": "International Conference on Electrical, Computer and Communication Technologies (ECCT)",
+      "releaseDate": "2026-01-05",
+      "website": "https://arxiv.org/abs/2608.16959",
+      "summary": "Co-author. Accepted & Presented. Contribution: built the patient-level, leakage-checked evaluation protocol and statistical analysis of the architectural branches. Preprint: arXiv:2608.16959."
     }
   ],
-  "presentations": [
-    {
-      "name": "Talk 1 on Relevant Topic in Your Field",
-      "event": "UC San Francisco, Department of Testing",
-      "date": "2012-03-01",
-      "location": "San Francisco, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Tutorial 1 on Relevant Topic in Your Field",
-      "event": "UC-Berkeley Institute for Testing Science",
-      "date": "2013-03-01",
-      "location": "Berkeley, CA, USA",
-      "description": ""
-    },
-    {
-      "name": "Talk 2 on Relevant Topic in Your Field",
-      "event": "London School of Testing",
-      "date": "2014-02-01",
-      "location": "London, UK",
-      "description": ""
-    },
-    {
-      "name": "Conference Proceeding talk 3 on Relevant Topic in Your Field",
-      "event": "Testing Institute of America 2014 Annual Conference",
-      "date": "2014-03-01",
-      "location": "Los Angeles, CA, USA",
-      "description": ""
-    }
-  ],
-  "teaching": [
-    {
-      "course": "Teaching experience 1",
-      "institution": "University 1, Department",
-      "date": "2014-01-01",
-      "role": "Undergraduate course",
-      "description": ""
-    },
-    {
-      "course": "Teaching experience 2",
-      "institution": "University 1, Department",
-      "date": "2015-01-01",
-      "role": "Workshop",
-      "description": ""
-    }
-  ],
-  "portfolio": [
-    {
-      "name": "Portfolio item number 1",
-      "category": "portfolio",
-      "date": "",
-      "url": "",
-      "description": "Short description of portfolio item number 1<br/><img src='/images/500x300.png'>"
-    }
-  ]
+  "presentations": [],
+  "teaching": [],
+  "portfolio": []
 }
