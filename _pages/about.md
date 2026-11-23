@@ -7,7 +7,7 @@ redirect_from:
   - /about.html
 ---
 
-I’m Bidhan Biswas. I work as a Senior Officer (IT) in the Online Banking Division at Janata Bank PLC in Dhaka, and I’m completing my MSc in Computer Science and Engineering at Dhaka International University (expected June 2027). I’m currently preparing applications for PhD programmes in machine learning and biomedical AI.
+I’m Bidhan Biswas. I work as a Senior Officer (IT) in the Online Banking Division at Janata Bank PLC in Dhaka, and I’m completing my MSc in Computer Science and Engineering at Dhaka International University (expected June 2027).
 
 I completed my BSc in Computer Science and Engineering at Sylhet Engineering College (affiliated with Shahjalal University of Science and Technology) in 2018 with distinction. My undergraduate thesis focused on brain tumour detection in MRI scans. That project started my interest in medical imaging. Since then, I have worked on few-shot cross-dataset adaptation for tuberculosis detection, interpretable models for diabetic retinopathy and breast histopathology, and reliable methods for mental-health text classification. Across these projects, my main focus has been building models that remain useful when labelled data is limited or when the data come from different sources.
 
